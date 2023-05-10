@@ -80,16 +80,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-::selection {
-  background: #2b69a7;
-  color: #fff;
-}
-
-::-moz-selection {
-  background: #0071f8;
-  color: #fff;
-}
-
 .section {
   margin-top: 120px;
 }
