@@ -1,363 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>SONIC</title>
 
-<head>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title>SONIC</title>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/sonic.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/sonic.css">
-  <link rel="stylesheet" href="assets/css/owl.css">
-  <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Bootstrap's Scripts  -->
+    <script defer src="vendor/jquery/jquery.min.js"></script>
+    <script defer src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script  src="assets/js/swiper.js"></script>
+  </head>
 
-  <!--
+  <body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html">
+                <img
+                  src="assets/images/new-logo.png"
+                  alt
+                  style="width: 150px"
+                />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="/pages/contact-us/index.html">Contact Us</a></li>
+                <li><a href="/pages/sign-in.html">Sign in</a></li>
+                <li><a href="/pages/sign-up.html">Sign up</a></li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
-TemplateMo 589 lugx gaming
+    <div class="main-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 align-self-center">
+            <div class="caption header-text">
+              <h6>Welcome to SONIC</h6>
+              <h2>BEST MOTORCYCLE SHOP EVER!</h2>
+              <p>
+                Sonic sells motorcycles from top brands, provides great customer
+                <br />
+                service, financing options, and maintenance services.
+              </p>
 
-https://templatemo.com/tm-589-lugx-gaming
+              <div class="search-input">
+                <form id="search" action="#">
+                  <input
+                    type="text"
+                    placeholder="Type Something"
+                    id="searchText"
+                    name="searchKeyword"
+                    onkeypress="handle"
+                  />
+                  <button role="button">Search Now</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
--->
-</head>
-
-<body>
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html">
-              <img src="assets/images/new-logo.png" alt style="width: 150px;">
+    <div class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="assets/images/featured-01.png"
+                    alt=""
+                    style="max-width: 44px"
+                  />
+                </div>
+                <h4>HONDA</h4>
+              </div>
             </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="shop.html">Our Shop</a></li>
-              <li><a href="product-details.html">Product Details</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="#">sign in</a></li>
-            </ul>
-            <a class='menu-trigger'>
-              <span>Menu</span>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="assets/images/featured-02.png"
+                    alt=""
+                    style="max-width: 44px"
+                  />
+                </div>
+                <h4>YAMAHA</h4>
+              </div>
             </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-  <div class="main-banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="caption header-text">
-            <h6>Welcome to SONIC</h6>
-            <h2> BEST MOTORCYCLE SHOP EVER!</h2>
-            <p>Sonic sells motorcycles from top brands, provides great customer <br> service, financing options, and
-              maintenance services.</p>
-
-            <div class="search-input">
-              <form id="search" action="#">
-                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword"
-                  onkeypress="handle" />
-                <button role="button">Search Now</button>
-              </form>
-            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="features">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <a href="#">
-            <div class="item">
-              <div class="image">
-                <img src="assets/images/featured-01.png" alt="" style="max-width: 44px;">
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="assets/images/featured-03.png"
+                    alt=""
+                    style="max-width: 44px"
+                  />
+                </div>
+                <h4>KWAZAKY</h4>
               </div>
-              <h4>Free Storage</h4>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <a href="#">
-            <div class="item">
-              <div class="image">
-                <img src="assets/images/featured-02.png" alt="" style="max-width: 44px;">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <a href="#">
+              <div class="item">
+                <div class="image">
+                  <img
+                    src="assets/images/featured-04.png"
+                    alt=""
+                    style="max-width: 44px"
+                  />
+                </div>
+                <h4>SUZUKI</h4>
               </div>
-              <h4>User More</h4>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <a href="#">
+      </div>
+    </div>
+
+    <div class="section most-played">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h6>TOP MOTO</h6>
+              <h2>Shop Now</h2>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="main-button">
+              <a href="shop.html">View All</a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
-              <div class="image">
-                <img src="assets/images/featured-03.png" alt="" style="max-width: 44px;">
+              <div class="thumb">
+                <a href="/pages/product-page/product/index.html"
+                  ><img src="assets/images/p (8).jpg" alt=""
+                /></a>
               </div>
-              <h4>Reply Ready</h4>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>HONDA CBR 1000 RR</h4>
+                <a href="/pages/product-page/product/index.html">Explore</a>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <a href="#">
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
-              <div class="image">
-                <img src="assets/images/featured-04.png" alt="" style="max-width: 44px;">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy/index.html"
+                  ><img src="assets/images/p (23).jpg" alt=""
+                /></a>
               </div>
-              <h4>Easy Layout</h4>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>HONDA CBR 600 RR</h4>
+                <a href="/pages/product-page/product - Copy/index.html">Explore</a>
+              </div>
             </div>
-          </a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (2)/index.html"
+                  ><img src="assets/images/p (3).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>BOULEVARD M109R</h4>
+                <a href="/pages/product-page/product - Copy (2)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (3)/index.html"
+                  ><img src="assets/images/p (6).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>BKING <br> 1300</h4>
+                <a href="/pages/product-page/product - Copy (3)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (4)/index.html"
+                  ><img src="assets/images/p (9).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 1000</h4>
+                <a href="/pages/product-page/product - Copy (4)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (5)/index.html"
+                  ><img src="assets/images/p (19).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 750</h4>
+                <a href="/pages/product-page/product - Copy (5)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (6)/index.html"
+                  ><img src="assets/images/p (36).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 750</h4>
+                <a href="/pages/product-page/product - Copy (6)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (7)/index.html"
+                  ><img src="assets/images/p (38).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 750</h4>
+                <a href="/pages/product-page/product - Copy (7)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (8)/index.html"
+                  ><img src="assets/images/p (20).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 750</h4>
+                <a href="/pages/product-page/product - Copy (8)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (9)/index.html"
+                  ><img src="assets/images/pr1 (2).jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 750</h4>
+                <a href="/pages/product-page/product - Copy (9)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (10)/index.html"
+                  ><img src="assets/images/20230511150030_[fpdl.in]_still-life-cafe-racer-style-motorbike_23-2148189634_medium.jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 750</h4>
+                <a href="/pages/product-page/product - Copy (10)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="/pages/product-page/product - Copy (11)/index.html"
+                  ><img src="assets/images/20230503005415_[fpdl.in]_motorcycle-studio-3d-rendering-illustration_37416-452.jpg" alt=""
+                /></a>
+              </div>
+              <div class="down-content">
+                <span class="category">Adventure</span>
+                <h4>GSXR <br> 750</h4>
+                <a href="/pages/product-page/product - Copy (11)/index.html">Explore</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="section trending">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h6>Trending</h6>
-            <h2>Trending motorcycles</h2>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="main-button">
-            <a href="shop.html">View All</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-01.jpg"  alt=""></a>
-              <span class="price"><em>$4000</em>$3800</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>lorem</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+    <div class="section trending">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h6>Trending</h6>
+              <h2>Trending motorcycles</h2>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-02.jpg" alt=""></a>
-              <span class="price">$4400</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>lorem</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+          <div class="col-lg-6">
+            <div class="main-button">
+              <a href="shop.html">View All</a>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-03.jpg" alt=""></a>
-              <span class="price"><em>$4000</em>$3500</span>
-            </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>lorem</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+          <div class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/trending-01.jpg" alt=""
+                /></a>
+                <span class="price"><em>$4000</em>$3800</span>
+              </div>
+              <div class="down-content">
+                <span class="category">Action</span>
+                <h4>lorem</h4>
+                <a href="product-details.html"
+                  ><i class="fa fa-shopping-bag"></i
+                ></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/trending-04.jpg" alt=""></a>
-              <span class="price">$3200</span>
+          <div class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/trending-02.jpg" alt=""
+                /></a>
+                <span class="price">$4400</span>
+              </div>
+              <div class="down-content">
+                <span class="category">Action</span>
+                <h4>lorem</h4>
+                <a href="product-details.html"
+                  ><i class="fa fa-shopping-bag"></i
+                ></a>
+              </div>
             </div>
-            <div class="down-content">
-              <span class="category">Action</span>
-              <h4>lorem</h4>
-              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/trending-03.jpg" alt=""
+                /></a>
+                <span class="price"><em>$4000</em>$3500</span>
+              </div>
+              <div class="down-content">
+                <span class="category">Action</span>
+                <h4>lorem</h4>
+                <a href="product-details.html"
+                  ><i class="fa fa-shopping-bag"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="thumb">
+                <a href="product-details.html"
+                  ><img src="assets/images/trending-04.jpg" alt=""
+                /></a>
+                <span class="price">$3200</span>
+              </div>
+              <div class="down-content">
+                <span class="category">Action</span>
+                <h4>lorem</h4>
+                <a href="product-details.html"
+                  ><i class="fa fa-shopping-bag"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="section most-played">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h6>TOP GAMES</h6>
-            <h2>Most Played</h2>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="main-button">
-            <a href="shop.html">View All</a>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-01.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Adventure</span>
-              <h4>new motorcycle </h4>
-              <a href="product-details.html">Explore</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-02.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Adventure</span>
-              <h4>new motorcycle</h4>
-              <a href="product-details.html">Explore</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-03.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Adventure</span>
-              <h4>new motorcycle</h4>
-              <a href="product-details.html">Explore</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-04.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Adventure</span>
-              <h4>new motorcycle</h4>
-              <a href="product-details.html">Explore</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-05.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Adventure</span>
-              <h4>new motorcycle</h4>
-              <a href="product-details.html">Explore</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 col-md-6 col-sm-6">
-          <div class="item">
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/top-game-06.jpg" alt=""></a>
-            </div>
-            <div class="down-content">
-              <span class="category">Adventure</span>
-              <h4>new motorcycle</h4>
-              <a href="product-details.html">Explore</a>
-            </div>
-          </div>
+    
+
+    <section class="info-section">
+    <div class="image"> <img src="/assets/images/moto2.jpg"></div>
+    <div class="text"><h1> Our aim is to provide<br> g<u>reat racin</u>g!</h1>
+
+     <p>  We and the rest of the team love to ride off road, to most of us it is more than just
+         a <br>hobby and has become a passion. We appreciate that there are many different types,<br>
+          ages and levels of riders and try to make all of our events as accessible and enjoyable<br> for the
+           novice as they are for the expert level rider.</p>
+
+
+         <button class="section-btn">Visit Us</button>
+    </div>
+
+
+  </section>
+    <footer>
+      <div class="container">
+        <div class="col-lg-12">
+          <p>Copyright © 2023 SONIC. All rights reserved.</p>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="section categories">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <div class="section-heading">
-            <h6>Categories</h6>
-            <h2>Top Categories</h2>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Action</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-01.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Action</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Action</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-03.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Action</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-04.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg col-sm-6 col-xs-12">
-          <div class="item">
-            <h4>Action</h4>
-            <div class="thumb">
-              <a href="product-details.html"><img src="assets/images/categories-05.jpg" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <p>Copyright © 2023 SONIC. All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <!-- Bootstrap  -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-</body>
-
+    </footer>
+  </body>
 </html>
